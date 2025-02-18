@@ -8,7 +8,7 @@ const fs = require("fs");
 
 
 const data = fs.readFileSync("./data.txt", "utf-8"); //this is a module to read file synchronously
-// console.log(data.toString());
+// console.log(data.toString()); if we do not give encoding type to read module then we use toString method.
 console.log(data);
 if(data.match("H")){
     console.log("File Contains H");
