@@ -6,8 +6,12 @@ const fspromise = require('fs').promises; // OR const fspromise = require('fs/pr
 //     console.log(data);
 // }
 const read = async () => {
-    const data = await fspromise.readFile("./data.txt", "utf-8"); // Function name for promises and callback is same i.e readFile
+    try {
+        const data = await fspromise.readFile("./data.txt", "utf-8"); // Function name for promises and callback is same i.e readFile
     console.log(data);
+    } catch (error) {
+        console.log(error.msg);
+    }
 }
 
 const write = async () => {
