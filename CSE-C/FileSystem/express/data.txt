@@ -1,0 +1,15 @@
+npm init -y --> Isse hum initialize kr dete hai saari dependencies bina manually yes krke
+npm i express --> Humne sb install kiya dependencies ki bhi dependencies. lIKE jo express ko chahiye woh sb install ho jata hai in package-lock.json
+npm i axios --> fetching ke liye
+npm i nodemon --> globally install krne ke liye node ko. Third party library to keep watch on our application and update it accordingly on the browser
+
+
+Commands :
+GET --> It means to retrieve the data. by default URL is used data le jaane ke liye
+POST --> For new user creation. Isme BOdy use hoti hai data send krne ke liye
+PUT --> when we want to replace some data with other data
+PATCH --> To change the minor errors with correct data
+DELETE --> delete krne ke liye
+
+
+This is our by default local port http://127.0.0.1:5500/
