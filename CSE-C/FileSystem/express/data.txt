@@ -13,3 +13,10 @@ DELETE --> delete krne ke liye
 
 
 This is our by default local port http://127.0.0.1:5500/
+
+
+
+
+date = 04-02-2025
+MiddleWare is a layer between browser and server.MiddleWare are normal function which access/or changes the request object and then send it to the server accordingly. It works as an interceptor.
+Request response cycle ko end krne ka kaam bhi MiddleWare layer ka hota hai. Also modification bhi karta hai inn objects(request, response) ko.

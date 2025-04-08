@@ -7,12 +7,12 @@ const users = [
 const server = http.createServer((req, res) => {
     res.writeHead(200, {"content-type" : "application/json"});
     // res.end(users);
-    // res.end(JSON.stringify(users));  // String -> Object = JSON.stringify() and Object -> String = JSON.parse()
-    // res.end(JSON.stringify(users[1]));
-    const namedata = users.map((user) => {
-        return user.name;
-    })
-    res.end(JSON.stringify(namedata));
+    // // res.end(JSON.stringify(users));  // String -> Object = JSON.stringify() and Object -> String = JSON.parse()
+    // // res.end(JSON.stringify(users[1]));
+    // const namedata = users.map((user) => {
+    //     return user.name;
+    // })
+    // res.end(JSON.stringify(namedata));
 });
 const port = 3000;
 
